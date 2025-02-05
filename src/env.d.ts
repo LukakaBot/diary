@@ -9,7 +9,7 @@ declare namespace App {
 interface ImportMetaEnv {
   readonly PUBLIC_GOOGLE_ANALYTICS_ID: string
   readonly PUBLIC_UMAMI_ANALYTICS_ID: string
-  readonly VITE_PUBLIC_SITE_BASE_URL: string
+  readonly PUBLIC_SITE_BASE_URL: string
 }
 
 interface ImportMeta {

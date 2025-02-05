@@ -1,10 +1,7 @@
 import type { UserConfig } from '~/types'
 
 function joinUrl(path?: string) {
-  console.error(import.meta)
-
-  const baseUrl = import.meta.env.VITE_PUBLIC_SITE_BASE_URL
-  // console.error(path ? `${baseUrl}${path}` : baseUrl)
+  const baseUrl = '/diary-blog'
   return path ? `${baseUrl}${path}` : baseUrl
 }
 
