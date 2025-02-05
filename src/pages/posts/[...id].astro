@@ -7,6 +7,7 @@ import LayoutDefault from '~/layouts/LayoutDefault.astro'
 import LayoutPost from '~/layouts/LayoutPost.astro'
 import { getPosts } from '~/utils'
 import { render } from 'astro:content'
+import { joinUrl } from '~/utils/tools'
 
 export const getStaticPaths = (async () => {
   const posts = await getPosts()
@@ -28,7 +29,7 @@ const { Content } = await render(entry)
 const { translate: t } = Astro.locals
 
 function getUrl(id: string) {
-  return `/posts/${id}`
+  return joinUrl(`/posts/${id}`)
 }
 ---
 
