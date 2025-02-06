@@ -8,8 +8,8 @@ function joinUrl(path?: string) {
 export const userConfig: Partial<UserConfig> = {
   // Override the default config here
   site: {
-    // title: '魔王の日記',
-    // subtitle: 'Memories in the Dark',
+    title: '魔王の日記',
+    subtitle: 'Memories in the Dark',
     // subtitle: 'Thoughts of the Demon King',
     website: `https://lukakabot.github.io/diary-blog`,
     navLinks: [
