@@ -11,7 +11,7 @@ export const userConfig: Partial<UserConfig> = {
     title: '魔王の日記',
     subtitle: 'Memories in the Dark',
     // subtitle: 'Thoughts of the Demon King',
-    website: `https://lukakabot.github.io`,
+    website: `http://lukakabot.github.io`,
     navLinks: [
       {
         name: 'Posts',
