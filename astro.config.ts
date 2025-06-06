@@ -12,7 +12,7 @@ import { themeConfig } from './src/.config'
 export default defineConfig({
   site: themeConfig.site.website,
   prefetch: true,
-  base: '/diary-blog',
+  base: '/diary',
   markdown: {
     remarkPlugins: [
       remarkMath,
