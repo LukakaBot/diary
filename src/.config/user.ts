@@ -1,7 +1,7 @@
 import type { UserConfig } from '~/types'
 
 function joinUrl(path?: string) {
-  const baseUrl = '/diary-blog'
+  const baseUrl = '/diary'
   return path ? `${baseUrl}${path}` : baseUrl
 }
 
@@ -11,7 +11,7 @@ export const userConfig: Partial<UserConfig> = {
     title: '魔王の日記',
     subtitle: 'Memories in the Dark',
     // subtitle: 'Thoughts of the Demon King',
-    website: `https://lukakabot.github.io/diary-blog`,
+    website: `https://lukakabot.github.io/diary`,
     navLinks: [
       {
         name: 'Posts',
