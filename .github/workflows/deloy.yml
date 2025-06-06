@@ -1,4 +1,4 @@
-name: Diary Blog CI
+name: Diary CI
 
 on:
   push:
@@ -19,7 +19,7 @@ jobs:
       - name: Install and Build
         uses: withastro/action@v2
         with:
-          path: .
+          path: /diary
           package-manager: pnpm@latest
 
   deploy:
